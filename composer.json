@@ -1,5 +1,5 @@
 {
-	"name": "digbang/security",
+	"name": "laravel/laravel-security",
 	"description": "Security package for Laravel 5 projects in Digbang.",
 	"authors": [
 		{
