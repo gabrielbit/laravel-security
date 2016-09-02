@@ -1,5 +1,5 @@
 {
-	"name": "digbang/security",
+	"name": "lucasruroken/laravel-security",
 	"description": "Security package for new laravel projects.",
 	"authors": [
 		{
@@ -20,7 +20,7 @@
 	},
 	"require-dev": {
 		"phpspec/phpspec": "~2.0",
-        "digbang/doctrine": "~1.0"
+		"lucasruroken/laravel-doctrine":     "~2.0"
 	},
 	"autoload": {
 		"classmap": [
@@ -31,11 +31,8 @@
 		}
 	},
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@git.digbang.com:digbang/doctrine.git"
-        }
-    ],
+		{ "type": "vcs", "url": "git@github.com:lucasruroken/laravel-doctrine.git" }
+	],
 	"minimum-stability": "dev",
     "prefer-stable": true
 }
