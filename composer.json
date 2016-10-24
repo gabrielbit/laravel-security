@@ -1,5 +1,5 @@
 {
-	"name": "lucasruroken/laravel-security",
+	"name": "gabrielbit/laravel-security",
 	"description": "Security package for new laravel projects.",
 	"authors": [
 		{
@@ -19,8 +19,7 @@
 		"doctrine/dbal": "~2.4"
 	},
 	"require-dev": {
-		"phpspec/phpspec": "~2.0",
-		"lucasruroken/laravel-doctrine":     "~2.0"
+		"phpspec/phpspec": "~2.0"
 	},
 	"autoload": {
 		"classmap": [
@@ -30,9 +29,6 @@
 			"Digbang\\Security\\": "src/"
 		}
 	},
-    "repositories": [
-		{ "type": "vcs", "url": "git@github.com:lucasruroken/laravel-doctrine.git" }
-	],
 	"minimum-stability": "dev",
     "prefer-stable": true
 }
